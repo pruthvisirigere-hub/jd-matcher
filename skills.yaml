@@ -1,0 +1,67 @@
+# Skills list for jd-matcher.
+# Each skill has a canonical name and a list of keywords (lowercase) that
+# count as evidence of that skill in a job description or a resume.
+# Keyword matching is case-insensitive and word-boundary aware.
+skills:
+  - name: Python
+    keywords: [python]
+  - name: Machine Learning
+    keywords: ["machine learning", "ml"]
+  - name: Deep Learning
+    keywords: ["deep learning"]
+  - name: Natural Language Processing
+    keywords: ["natural language processing", "nlp"]
+  - name: Large Language Models
+    keywords: ["large language models", "llm", "llms"]
+  - name: Retrieval-Augmented Generation
+    keywords: ["retrieval-augmented generation", "rag"]
+  - name: Prompt Engineering
+    keywords: ["prompt engineering"]
+  - name: LangChain
+    keywords: [langchain]
+  - name: LangGraph
+    keywords: [langgraph]
+  - name: PyTorch
+    keywords: [pytorch, torch]
+  - name: TensorFlow
+    keywords: [tensorflow]
+  - name: scikit-learn
+    keywords: ["scikit-learn", "sklearn"]
+  - name: Pandas
+    keywords: [pandas]
+  - name: NumPy
+    keywords: [numpy]
+  - name: SQL
+    keywords: [sql]
+  - name: PostgreSQL
+    keywords: [postgresql, postgres]
+  - name: Vector Databases
+    keywords: ["vector database", "vector databases", "pgvector", "pinecone", "chroma", "weaviate", "faiss"]
+  - name: Docker
+    keywords: [docker]
+  - name: Kubernetes
+    keywords: [kubernetes, k8s]
+  - name: AWS
+    keywords: [aws, "amazon web services"]
+  - name: MLOps
+    keywords: [mlops]
+  - name: Model Evaluation
+    keywords: ["model evaluation", "evaluation", "evals"]
+  - name: FastAPI
+    keywords: [fastapi]
+  - name: REST APIs
+    keywords: ["rest api", "rest apis", "restful"]
+  - name: Git
+    keywords: [git]
+  - name: Data Visualization
+    keywords: ["data visualization", "matplotlib", "seaborn", "tableau", "power bi"]
+  - name: Statistics
+    keywords: [statistics, statistical]
+  - name: Apache Spark
+    keywords: [spark, "apache spark"]
+  - name: Computer Vision
+    keywords: ["computer vision"]
+  - name: Transformers
+    keywords: [transformer, transformers, bert, gpt]
+  - name: CI/CD
+    keywords: ["ci/cd", "continuous integration"]
